@@ -4,24 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Timed Quiz</title>
   </head>
   <header>
     <p id="timer"></p>
   </header>
   <body>
     <div class="start">
-      <h1 class="start-header">Directions for Game</h1>
+      <h1 class="start-header custom-header">Directions for Game</h1>
       <p class="directions">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi
-        voluptate fugiat reiciendis ullam amet maiores incidunt quam veritatis
-        quod dignissimos? Delectus necessitatibus consequatur deleniti? A,
-        exercitationem? Quibusdam vitae alias labore!
+        Click the "begin" button to begin taking the quiz. A timer will begin
+        decrementing when you click the button. Click on an answer to answer a
+        question. If you are correct, you will move onto the next question. If
+        you are incorrect, the timer will decrease 5 seconds.
       </p>
       <button id="startbtn">Begin</button>
     </div>
     <div class="container">
-      <h1 id="question"></h1>
+      <h1 id="question" class="custom-header"></h1>
       <ul id="answers"></ul>
     </div>
     <div id="enter-score">

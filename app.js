@@ -137,8 +137,7 @@ function endQuiz() {
     localStorage.setItem("scores", JSON.stringify(scores));
 
     qContainer.text("Scoreboard");
-    scoreList.html(localStorage.getItem(JSON.parse("scores");
+    scoreList.html(localStorage.getItem(JSON.parse("scores")));
   }
   saveBtn.on("submit", saveScore);
-
 }

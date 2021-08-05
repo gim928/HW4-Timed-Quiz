@@ -1,0 +1,15 @@
+:root {
+  --brown: #a88f82;
+  --tan: #f5e1d5;
+  --teal: #71a8a7;
+  --lightteal: #d5f5f5;
+  --light: #fffaf7;
+}
+
+.custom-header {
+  background-color: var(--teal);
+}
+
+.custom-question {
+  background-color: var(--teal);
+}

@@ -7,3 +7,5 @@
 #### Live link to the website: https://gim928.github.io/HW4-Timed-Quiz/
 
 ##### Screenshot:
+
+https://github.com/gim928/HW4-Timed-Quiz/blob/main/Screenshot%202021-08-04%20224457.png
